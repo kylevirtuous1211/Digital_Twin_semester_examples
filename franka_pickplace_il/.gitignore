@@ -1,0 +1,8 @@
+# Training artifacts — regenerated locally, not committed
+logs/
+datasets/*.hdf5
+datasets/*.txt
+
+# Keep only the curated best checkpoint; ignore everything else under checkpoints/
+checkpoints/*.pth
+!checkpoints/v4_best_filtered_data.pth
